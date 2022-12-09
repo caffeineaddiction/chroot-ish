@@ -1,0 +1,6 @@
+Match group sandbox
+     X11Forwarding no
+     AllowTcpForwarding no
+     AllowAgentForwarding no
+     PermitTTY yes
+     ForceCommand /usr/bin/pshell.sh $SSH_ORIGINAL_COMMAND
